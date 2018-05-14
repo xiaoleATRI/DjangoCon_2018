@@ -7,9 +7,9 @@ Beginner & Mediate (Anyone who has a little experience with Django and Django Re
 
 The beauty of Behaviour-Driven Development (BDD) methodology is that it builds a tunnel between testers and business analyzers. In which, the expected behaviors of system are described in business readable and domain-specific language. 
 
-Accordingly, testers are capable to apply tests based on the semantic of business requirements directly without translation. 
+Accordingly, testers are capable to apply tests based on the semantic of business requirements directly by following BDD workflow. Moreover, web-app needs to be tested on both Desktop and Mobile platforms so that BDD authomatic test running could save testers a lot of time from doing multiple platform tests manually.
 
-In the end, it is very easy for business analyzers to understand the results of tests.
+In the end, it could be easy as well for business analyzers to understand the results of tests from steps written in Gherkin language.
 
 ### Description
 
