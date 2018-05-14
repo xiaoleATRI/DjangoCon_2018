@@ -28,14 +28,16 @@ BDD is in its prevalence now and we’d like to breakdown how we implement BDD a
     | The summary of function we need to test on | The abstract of behaviours user is performing | The user cases under specific story |The exact behavior decription|
 
 2. Summary Template of Scenario
-    |   | User | Privilege | Modal Verb | Action |
-    |:---:|:----:|:---------:|:----------:|:-------:|
-    | Ex| Any | Registration | Can | Attend Djangocon|
+
+    |     | User | Privilege    | Modal Verb | Action          |
+    |:---:|:----:|:------------:|:----------:|:---------------:|
+    | Ex  | Any  | Registration | Can        | Attend Djangocon|
 
 3. Template of Step
-    | | Condition Word | Subject | Modal Verb | Action | in | Page Pattern | of | App Name |
-    |:---:|:----:|:---------:|:----------:|:-------:|:------:|:------:|:--:|:-----:|
-    | Ex| Given | I | Can | register | in | land page | of | DjangoCon Website|
+
+    |    | Condition Word | Subject | Modal Verb | Action   | in | Page Pattern | of | App Name |
+    |:--:|:-------------: |:-------:|:----------:|:--------:|:--:|:------------:|:--:|:--------:|
+    |Ex  | Given          | I       | Can        | register | in | land page    | of | DjangoCon Website|
     ***
     The reason why we designed such Gherkin style description step is that we have many apps in one project and it can be very hard for us to maintain the test if we have all the step implementations in one single action file. 
     
